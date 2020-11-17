@@ -10,8 +10,8 @@ public class HiController {
 
     @RequestMapping("/say")
     public String say(Model model) { // 参数中传入Model
-        model.addAttribute("name","wormday"); // 指定Model的值
-        model.addAttribute("url","http://www.cnblogs.com/wormday/p/8435617.html"); // 指定Model的值
+        model.addAttribute("name","dukang"); // 指定Model的值
+        model.addAttribute("url","https://cheriduk.github.io/"); // 指定Model的值
         return "say";
     }
 }
