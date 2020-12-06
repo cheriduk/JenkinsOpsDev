@@ -7,7 +7,10 @@
     <groupId>org.example</groupId>
     <artifactId>JenkinsOpsDev</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>k8s</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>untitled2 Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
